@@ -13,11 +13,11 @@ One way to fetch our reuqested username would be:
 
 ```
 $stmt = new Stmt($con, "SELECT * FROM ".USERS_TABLE." WHERE email=?", array(&$email)) or die($this->con->error);
-    // check for result 
-    if ($stmt->getNumRows() > 0) {
-                $result = $stmt->fetchRow();
-                $username = $result['username'];
-    }
-    ...
+// check for result 
+if ($stmt->getNumRows() > 0) {
+           $result = $stmt->fetchRow();
+           $username = $result['username'];
+}
+...
 ```
 Just like a usual query.
