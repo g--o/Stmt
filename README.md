@@ -8,6 +8,7 @@ We store it's requested email and filter it.
 We store the result in the varaible *$email*.
 
 We make a mysqli object and store it in *$con*.
+
 One way to fetch our reuqested username would be:
 
 ```
