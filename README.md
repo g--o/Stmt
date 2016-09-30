@@ -2,7 +2,7 @@
 Prepared Statements wrapper for php.
 Now you can use prepared statements just like a normal query.
 
-==Example
+##Example
 Let's say for example a user tries to find another user by email.
 We store it's requested email and filter it.
 We store the result in the varaible $email.
