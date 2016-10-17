@@ -1,3 +1,4 @@
+<?php
 // This class is wrapping prepared statments so you can use
 // them like any normal query.
 // Made by g_o
@@ -73,3 +74,4 @@ class Stmt // Wrapping class for mysqli_stmt
 	}
 	
 }
+?>
